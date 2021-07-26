@@ -5,6 +5,6 @@ myApp.controller("HelloWorldCtrl", function ($scope, $timeout) {
   $scope.message = `Hello World ${name}`;
 
   $timeout(() => {
-    console.log("name");
+    console.log("mi nombre", name);
   }, 3000);
 });

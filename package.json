@@ -4,7 +4,7 @@
   "description": "We started to deploy angularjs with webpack",
   "main": "index.js",
   "scripts": {
-    "start": "webpack serve --mode development",
+    "start": "webpack --watch --mode development",
     "build": "webpack --mode production"
   },
   "keywords": [],
